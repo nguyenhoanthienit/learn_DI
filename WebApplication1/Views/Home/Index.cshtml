@@ -1,0 +1,7 @@
+﻿@model List<Student>
+
+@foreach(var item in Model)
+{
+    <p>@item.ID - @item.Name - @item.Class</p>
+    <button class="btn btn-success" @Html.>More Info</button>
+}
